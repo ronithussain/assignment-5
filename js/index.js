@@ -1,6 +1,6 @@
 document.getElementById('donate-now-btn')
     .addEventListener('click', function(){
-        // console.log('click button')
+        alert('Congratulations! Money has been submitted successfully.');
 
 const addMoney =getInputValueById('input-add-money');
 const total = getTextValueById('total-balance');
@@ -29,6 +29,8 @@ const div = document.createElement('div');
         document.getElementById('transaction-container').appendChild(div);
 
 })
+
+
 
 // history tab functionality.
 const historyButton = document.getElementById('history-btn');
