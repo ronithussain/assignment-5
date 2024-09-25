@@ -7,11 +7,11 @@ const total = getTextValueById('total-balance');
 
 const balance = getTextValueById('donate-balance');
 if(isNaN(addMoney)){
-    alert('failed to donate money');
+    alert('invalid Donation amount');
     return;
 }
 if(addMoney < 0){
-    alert('Failed');
+    alert('Your Donate is invalid');
     return;
 }
 const updateBalance = total - addMoney;
